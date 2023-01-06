@@ -1,27 +1,28 @@
 *{
     margin: 0;
 }
-/* Header-Bannar */
+/* Header-Banner */
 header{
     background-image: url(../images/banner/banner3.png);
     height: 808px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    margin-bottom: 206px ;
 }
-.bannar{
+.banner{
     text-align: right;
     padding-top: 216px;
     padding-right: 230px;
     padding-left: 845px;
 }
-.bannar-title{
+.banner-title{
     font-weight: 700;
     font-size: 65px;
     font-family: 'Work Sans', sans-serif;
     color: #FFFFFF;
 
 }
-.bannar-title-description{
+.banner-title-description{
     margin-top: 24px;
     margin-bottom: 32px;
     color: #FFFFFF;
@@ -34,4 +35,85 @@ header{
     border: none;
     border-radius: 5px;
 }
-/* Main */
+/* main */
+/* section-failures */
+main{
+     max-width: 1140px;
+     margin: 0 auto;
+}
+
+.section-failures{
+    display: flex;
+    align-items: center;
+    margin-left: 206px;
+    margin-right: 322px;
+    gap: 87px;
+    
+
+ 
+}
+.section-failures-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+.section-failures-description{
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.section-failures-list{
+    margin-top: 8px;
+}
+/* sectio-paln */
+.section-plan{
+    text-align: center;
+}
+.plan-title{
+    margin-top: 130px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 40px;
+    
+}
+.plan-details-flex{
+    display: flex;
+   gap: 86px;
+}
+
+
+.plan-details-title{
+    font-weight: 700px;
+    font-size: 30px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    gap: 56px;
+    color: #151414
+}
+.plan-details-description{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    margin-bottom: 192px;
+}
+
+/* section-linear */
+.section-linear{
+    background-image: url(/images/gradient3.png), url(/images/watch.png);
+    height: 300px;
+    margin: 0 230px;
+}
+.linear-title{
+    font-weight: 700;
+    font-size: 40px;
+}
+/* footer-section */
+.footer-cotainer{
+    height: 577px;
+    background-color: #151414;
+    margin-top: 130px;
+    display: flex;
+}
+.email{
+    display: block;
+    
+}
