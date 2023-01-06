@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+}
+/* Header-Bannar */
+header{
+    background-image: url(../images/banner/banner3.png);
+    height: 808px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.bannar{
+    text-align: right;
+    padding-top: 216px;
+    padding-right: 230px;
+    padding-left: 845px;
+}
+.bannar-title{
+    font-weight: 700;
+    font-size: 65px;
+    font-family: 'Work Sans', sans-serif;
+    color: #FFFFFF;
+
+}
+.bannar-title-description{
+    margin-top: 24px;
+    margin-bottom: 32px;
+    color: #FFFFFF;
+}
+.button-primary{
+    font-weight: 600;
+    font-size: 20px;
+    padding: 25px 21px;
+    color: #005FAC;
+    border: none;
+    border-radius: 5px;
+}
+/* Main */
