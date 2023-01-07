@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    font-family: 'Work Sans', sans-serif;
 }
 /*Header-container*/
 header{
@@ -18,7 +19,7 @@ header{
     padding-top: 126px;
     font-weight: 700;
     font-size: 65px;
-    font-family: 'Work Sans', sans-serif;
+    
     color: #FFFFFF;
 }
 .banner-title-description{
@@ -160,8 +161,8 @@ footer{
 /*future-section*/
 .future{
     padding-bottom: 130px;
-    padding-top: 157px;
-    margin-left: 168px; 
+    padding-top: 130px;
+    padding-left: 230px; 
 }
 .future-title{
     font-weight: 700;
