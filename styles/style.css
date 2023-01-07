@@ -4,7 +4,6 @@
 /*Header-container*/
 header{
     background-image: url(../images/banner/banner3.png);
-    height: 808px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin-bottom: 206px ;
@@ -13,6 +12,7 @@ header{
 .banner{
     text-align: right;
     padding-top: 216px;
+    padding-bottom: 166px;
     margin-right: 230px;
     
 }
@@ -150,14 +150,15 @@ main{
 /* footer-container*/
 footer{  
     background-color: #151414;
-    height:517px;
+    hight:517px;
     margin-top: 130px;
     display: flex;
     gap: 331px;
 }
 /*future-section*/
 .future{
-    margin-top: 157px;
+    padding-bottom: 130px;
+    padding-top: 157px;
     margin-left: 168px; 
 }
 .future-title{
@@ -174,17 +175,18 @@ footer{
     color: #FFFFFF;
 }
 .future-phone{
-    margin-top: 16px;
+    padding-top: 16px;
     margin-bottom: 32px;
     color: #FFFFFF;
 }
 /*fb-tw--yu*/
 a{
-    padding: 5px;   
+    
+    justify-content: space-around;   
 }
 /*subscribe-section*/
 .subscribe{
-    margin-top: 157px;
+    padding-top: 157px;
     margin-right: 229px;
 }
 .subscribe-title{
@@ -194,7 +196,7 @@ a{
     margin-bottom: 31px;
 }
 input[type="email"]{
-    width: 90%;
+    width: 100%;
     padding: 20px;
     color: #FFFFFF;
     border: 1px solid;
