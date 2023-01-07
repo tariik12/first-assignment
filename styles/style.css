@@ -11,25 +11,20 @@ header{
 /*banner-section*/
 .banner{
     text-align: right;
-    padding-right: 230px;
-    padding-left: 845px;
-     
+    padding-right: 230px;    
 }
 .banner-title{   
     padding-top: 126px;
     font-weight: 700;
-    font-size: 65px;
-    
+    font-size: 65px;    
     color: #FFFFFF;
 }
-.banner-title-description{
-    
+.banner-title-description{    
     margin-top: 24px;
     margin-bottom: 32px;
     color: #FFFFFF;
 }
-.button-primary{
-    
+.button-primary{    
     font-weight: 600;
     font-size: 20px;
     margin-bottom: 166px;
@@ -86,7 +81,7 @@ main{
     margin-bottom: 20px;
     font-weight: 700px;
     font-size: 35px;
-    color: rgb(255, 157, 127);
+    color: rgb(50, 49, 59);
 }
 .skill-work{
     display: fleX;
@@ -106,7 +101,7 @@ main{
     margin-bottom: 8px;
 }
 .success-check{
-    color: hsl(150, 100%, 50%);
+    color: hsl(0, 100%, 50%);
 }
 /*plan-section*/
 .plan{
@@ -156,7 +151,7 @@ footer{
     background-color: #151414;
     margin-top: 130px;
     display: flex;
-    gap: 331px;
+    justify-content: space-between;  
 }
 /*future-section*/
 .future{
@@ -184,8 +179,7 @@ footer{
 }
 /*fb-tw--yu*/
 a{
-    
-    justify-content: space-around;   
+    padding-left: 5px;   
 }
 /*subscribe-section*/
 .subscribe{
