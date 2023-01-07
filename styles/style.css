@@ -1,7 +1,7 @@
 *{
     margin: 0;
 }
-/* Header-Banner */
+/*Header-container*/
 header{
     background-image: url(../images/banner/banner3.png);
     height: 808px;
@@ -9,6 +9,7 @@ header{
     background-size: 100% 100%;
     margin-bottom: 206px ;
 }
+/*banner-section*/
 .banner{
     text-align: right;
     padding-top: 216px;
@@ -20,7 +21,6 @@ header{
     font-size: 65px;
     font-family: 'Work Sans', sans-serif;
     color: #FFFFFF;
-
 }
 .banner-title-description{
     margin-top: 24px;
@@ -35,43 +35,37 @@ header{
     border: none;
     border-radius: 5px;
 }
-/* main */
-/* section-failures */
+/*main-container*/
 main{
      max-width: 1140px;
      margin: 0 auto;
 }
-/* section-failures */
-.section-failures{
+/*failures-section*/ 
+.failures{
     display: flex;
     align-items: center;
     gap: 87px;
 }
-.section-failures-title{
+.failures-title{
     font-weight: 700;
     font-size: 40px;
     color: #151414;
 }
-.section-failures-description{
+.failures-description{
     margin-top: 24px;
     margin-bottom: 16px;
     color: #444343;
 }
-.section-failures-list{
+.failures-list{
     margin-top: 8px;
     color: #444343;
 }
 .failures-check{
     color: hsl(0, 100%, 50%);
 }
-.success-check{
-    color: hsl(150, 100%, 50%);
-}
-
-/* my-success */
-.my-success-container{
-    margin-top: 130px;
-    
+/*success-section*/
+.success-container{
+    margin-top: 130px;  
 }
 .succes-title{
     text-align: center;
@@ -81,121 +75,90 @@ main{
 }
 .success-skill-work{
     display: flex;
-    justify-content: space-between;
-      
-          
+    justify-content: space-between;        
 }
-
-.my-skill{
+.skill{
     text-align: center;
     margin-bottom: 20px;
     font-weight: 700px;
     font-size: 35px;
     color: rgb(255, 157, 127);
-    
-
 }
-
-.language-computer{
+.skill-work{
     display: fleX;
-    gap: 120px;
-    
+    gap: 120px;   
 }
-.language-skill{
-    
-    
-    
-}
-.language-skill-right{
-    
-    
-}
-.language-title{
+.skill-work-title{
     text-align: center;
     font-weight: 700;
     font-size: 30px;
-    color: #151414
-    
+    color: #151414    
 }
-.english{
+.skill-work-description{
     font-weight: 500;
     font-size: 18px;
     color: #737272;
     margin-top: 20px;
     margin-bottom: 8px;
 }
-.arabic{
-    font-weight: 500;
-    font-size: 18px;
-    color: #737272;
-    margin-top: 8px;
-    margin-bottom: 8px;
+.success-check{
+    color: hsl(150, 100%, 50%);
 }
-/* sectio-paln */
-.section-plan{
+/*plan-section*/
+.plan{
     text-align: center;
 }
 .plan-title{
     margin-top: 130px;
     margin-bottom: 50px;
     font-weight: 700;
-    font-size: 40px;
-    
+    font-size: 40px;  
 }
-.plan-details-flex{
+.plan-details-for-flex{
     display: flex;
-   gap: 86px;
+    gap: 85px;
 }
-
-
 .plan-details-title{
     font-weight: 700px;
     font-size: 30px;
     margin-top: 24px;
     margin-bottom: 16px;
-    gap: 56px;
-    color: #151414
+    color: #151414;
 }
 .plan-details-description{
     font-weight: 500;
     font-size: 25px;
-    color: #737272;
-    margin-bottom: 192px;
+    color: #737272;   
 }
-
-/* section-linear */
-.section-linear{
-     
+/*linear-section*/
+.linear{
+    margin: 130px 0px;
     background-image:linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(/images/gradient1.png), url(/images/watch.png);
     border-radius: 8px;
-   
-    
-    
+    height: 300px;  
 }
 .linear-title-button{
-    height: 300px;
-    margin-left: 59px;
-    margin-right: 617px;
+    padding-top: 59px;
+    padding-right: 617px;
+    padding-left: 64px;   
 }
 .linear-title{
-    padding-top: 64px;
     padding-bottom: 24px;
     font-weight: 700px;
     font-size: 40px;  
 }
-/* footer-section */
-.footer-cotainer{
-   
+/* footer-container */
+footer{  
     background-color: #151414;
     margin-top: 130px;
+    padding-top: 158px;
+    padding-bottom: 102px;
     display: flex;
     gap: 331px;
-    padding-top: 130px;
-    padding-left: 230px;
 }
-/* section-future */
-.section-future{
-    padding-bottom: 130px;
+/*future-section*/
+.future{
+    margin-left: 168px; 
 }
 .future-title{
     font-weight: 700;
@@ -215,10 +178,13 @@ main{
     margin-bottom: 32px;
     color: #FFFFFF;
 }
-/* section-subscribe */
-.section-subscribe{
+/*fb-tw--yu*/
+a{
+ padding: 5px;   
+}
+/*subscribe-section*/
+.subscribe{
     margin-right: 229px;
-
 }
 .subscribe-title{
     font-weight: 600;
@@ -227,17 +193,13 @@ main{
     margin-bottom: 31px;
 }
 input[type="email"]{
-    width: 100%;
+    width: 90%;
     padding: 20px;
     color: #FFFFFF;
     border: 1px solid;
-    background: none;
+    background:#151414;
     border-radius: 8px;
 }
-
-
-
-
 .subscribe-button{
     margin-top: 16px;
     background: #005FAC;
