@@ -5,6 +5,7 @@
 /*Header-container*/
 header{
     height: 808px;
+    width: 100%;
     background-image: url(../images/banner/banner3.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -12,7 +13,7 @@ header{
 /*banner-section*/
 .banner{
     text-align: right;
-    padding-right: 200px;    
+    padding-right: 230px;    
 }
 .banner-title{   
     padding-top: 126px;
