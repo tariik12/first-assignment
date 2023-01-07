@@ -13,7 +13,7 @@ header{
 .banner{
     text-align: right;
     padding-top: 216px;
-    padding-right: 230px;
+    margin-right: 230px;
     
 }
 .banner-title{
@@ -133,7 +133,7 @@ main{
 /*linear-section*/
 .linear{
     margin: 130px 0px;
-    background-image:linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(/images/gradient1.png), url(/images/watch.png);
+    background-image:linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/gradient1.png), url(../images/watch.png);
     border-radius: 8px;
     height: 300px;  
 }
@@ -150,7 +150,7 @@ main{
 /* footer-container*/
 footer{  
     background-color: #151414;
-    height: 577px;
+    height:517px;
     margin-top: 130px;
     display: flex;
     gap: 331px;
