@@ -14,7 +14,7 @@ header{
     text-align: right;
     padding-top: 216px;
     padding-right: 230px;
-    padding-left: 845px;
+    
 }
 .banner-title{
     font-weight: 700;
@@ -119,14 +119,14 @@ main{
     gap: 85px;
 }
 .plan-details-title{
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 30px;
     margin-top: 24px;
     margin-bottom: 16px;
     color: #151414;
 }
 .plan-details-description{
-    font-weight: 500;
+    font-weight: 500px;
     font-size: 25px;
     color: #737272;   
 }
@@ -147,17 +147,17 @@ main{
     font-weight: 700px;
     font-size: 40px;  
 }
-/* footer-container */
+/* footer-container*/
 footer{  
     background-color: #151414;
+    height: 577px;
     margin-top: 130px;
-    padding-top: 158px;
-    padding-bottom: 102px;
     display: flex;
     gap: 331px;
 }
 /*future-section*/
 .future{
+    margin-top: 157px;
     margin-left: 168px; 
 }
 .future-title{
@@ -180,10 +180,11 @@ footer{
 }
 /*fb-tw--yu*/
 a{
- padding: 5px;   
+    padding: 5px;   
 }
 /*subscribe-section*/
 .subscribe{
+    margin-top: 157px;
     margin-right: 229px;
 }
 .subscribe-title{
