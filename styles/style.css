@@ -6,31 +6,32 @@ header{
     background-image: url(../images/banner/banner3.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    margin-bottom: 206px ;
 }
 /*banner-section*/
 .banner{
     text-align: right;
-    padding-top: 216px;
-    padding-bottom: 166px;
     padding-right: 230px;
     padding-left: 845px;
-    
+     
 }
-.banner-title{
+.banner-title{   
+    padding-top: 126px;
     font-weight: 700;
     font-size: 65px;
     font-family: 'Work Sans', sans-serif;
     color: #FFFFFF;
 }
 .banner-title-description{
+    
     margin-top: 24px;
     margin-bottom: 32px;
     color: #FFFFFF;
 }
 .button-primary{
+    
     font-weight: 600;
     font-size: 20px;
+    margin-bottom: 166px;
     padding: 25px 21px;
     color: #005FAC;
     border: none;
@@ -43,6 +44,7 @@ main{
 }
 /*failures-section*/ 
 .failures{
+    margin-top: 131px;
     display: flex;
     align-items: center;
     gap: 87px;
@@ -151,7 +153,6 @@ main{
 /* footer-container*/
 footer{  
     background-color: #151414;
-    hight:517px;
     margin-top: 130px;
     display: flex;
     gap: 331px;
